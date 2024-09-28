@@ -34,6 +34,9 @@ kotlin {
         androidMain.dependencies {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
+            implementation(project.dependencies.platform(libs.firebase.bom))
+            implementation(libs.database.realtime)
+            implementation(libs.analytics)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -44,11 +47,13 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtime.compose)
-            implementation(project.dependencies.platform(libs.firebase.bom))
-            implementation(libs.database.realtime)
-            implementation(libs.analytics)
+
+        }
+        iosMain.dependencies {
+
         }
     }
+    task("testClasses")
 }
 
 android {
