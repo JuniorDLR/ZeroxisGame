@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1059666064089",
+    "project_id": "zeroxisgame-e3ef9",
+    "storage_bucket": "zeroxisgame-e3ef9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059666064089:android:5d6a71e731e53beb9084c8",
+        "android_client_info": {
+          "package_name": "com.junaxerdev.zeroxisgame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQhRi-fsOTOm2t8oVhhg_kP2LNuCcczhk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
